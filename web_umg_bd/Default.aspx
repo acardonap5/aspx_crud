@@ -14,7 +14,7 @@
     <asp:Label ID="lbl_fn" runat="server" CssClass="badge" Text="Fecha Nacimiento"></asp:Label>
     <asp:TextBox ID="txt_fn" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
     <asp:Label ID="lbl_sangre" runat="server" CssClass="badge" Text="Puesto"></asp:Label>
-    <asp:DropDownList ID="drop_puesto" runat="server" CssClass="form-control"></asp:DropDownList>
+    <asp:DropDownList ID="drop_puesto" runat="server" CssClass="form-select"></asp:DropDownList>
     <asp:Button ID="btn_agregar" runat="server" Text="Agregar" CssClass="btn btn-info btn-lg" OnClick="btn_agregar_Click" />
     <asp:Button ID="btn_modificar" runat="server" OnClick="btn_modificar_Click" Text="Modificar" CssClass="btn btn-success btn-lg" Visible="False" />
     <asp:Label ID="lbl_mensaje" runat="server" CssClass="alert-info"></asp:Label>
